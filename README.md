@@ -56,7 +56,7 @@ It told me to use a command *git push --mirror*.
 The files that are not white, but yellow or green color need to be added and committed to Git.
 
 
-# General advice
+# Week 1 General advice
 
 * Software development is not software manufacture = development takes time, it is not about producing a lot, but producing well. It's science.
 
