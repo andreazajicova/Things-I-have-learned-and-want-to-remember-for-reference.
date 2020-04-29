@@ -1,5 +1,6 @@
 # Things-I-have-learned-and-want-to-remember-for-reference.
 I will try to keep a log of things I have learned and want to use for reference in the future. 
+I learn the best by hearing about it, researching about it, testing it in action and writing about it/sharing it with others. 
 
 
 # Week 1 Introduction
@@ -29,13 +30,13 @@ I will try to keep a log of things I have learned and want to use for reference 
 1. The commands to start a simple app through Terminal using NodeJS are:
 
 * npm init
-  _This creates a package.json which contains informationo about your app, like name, version, dependencies, that are later neccessary for installing all the dependencies for your app._
+  _This creates a package.json which contains information about your app, like name, version, dependencies, that are later neccessary for installing all the dependencies for your app._
 
 * npm install
   _This installs all the dependencies (node modules) for your app that npm finds in package.json._
   
 * npm install -D nodemon 
-  _This installs Nodemon, so you don't have to refresh your localhost webpage each time you make a change._
+  _This installs Nodemon, so you don't have to refresh your localhost webpage each time you make a change to it._
   
 
 # Week 1 Visual Studio Code
@@ -45,10 +46,12 @@ The files that are not white, but yellow or green color need to be added and com
 
 # General advice
 
-* Software development is not software manufacture = development takes time, it is not about producing a lot, but producing well. 
+* Software development is not software manufacture = development takes time, it is not about producing a lot, but producing well. It's science.
 
-> Talent can helpp you win the race. Teamwork makes you win the championship. 
-> Michael Jordan 
+* Michael Jordan said: 
+
+> Talent can hel you win the race. Teamwork makes you win the championship. 
+ 
 
 
 
