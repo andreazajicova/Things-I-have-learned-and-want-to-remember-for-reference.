@@ -37,6 +37,9 @@ I learn the best by hearing about it, researching about it, testing it in action
 
 I fixed it by looking into suggested *git push --help*.
 It told me to use a command *git push --mirror*.
+
+7. Escape git help terminal by clicking _q_ for 'quit'. 
+
 # Week 1 NodeJS
 
 1. The commands to start a simple app through Terminal using NodeJS are:
