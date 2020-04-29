@@ -1,2 +1,55 @@
 # Things-I-have-learned-and-want-to-remember-for-reference.
 I will try to keep a log of things I have learned and want to use for reference in the future. 
+
+
+# Week 1 Introduction
+
+1. I cloned a repository from Github to my local machine:
+   A. In Terminal I entered git clone <url (https://) of the repository I wanted to clone>, i.e.
+      **git clone git@github.com:saltsthlm/spring20-warmup.git**
+      
+2. I opened VSC from Terminal with **e .** or **code .**
+
+3. I learned how to check somoebody else's file from a repository on Github:
+   I opened a readMe file in my VSC from a repository spring20-warmup.git:
+   **git checkout "teamAndreaSandraNjal"**
+   (I think I first had to type **git pull** into Terminal. I must test this again.)
+   **e readMe.md**
+   (This command in Terminal opened the readMe.md file in VSC).
+
+4. **git init .**
+   _This command creates a reppository in the currently open dierctory._
+   
+5. **git commit -am "msg"**
+   _This command both adds and commits changes to GitHub at the same time._
+   _It is a combination of **add .** and **commit -m "msg"**_
+
+# Week 1 NodeJS
+
+1. The commands to start a simple app through Terminal using NodeJS are:
+
+* npm init
+  _This creates a package.json which contains informationo about your app, like name, version, dependencies, that are later neccessary for installing all the dependencies for your app._
+
+* npm install
+  _This installs all the dependencies (node modules) for your app that npm finds in package.json._
+  
+* npm install -D nodemon 
+  _This installs Nodemon, so you don't have to refresh your localhost webpage each time you make a change._
+  
+
+# Week 1 Visual Studio Code
+
+The files that are not white, but yellow or green color need to be added and committed to Git.
+
+
+# General advice
+
+* Software development is not software manufacture = development takes time, it is not about producing a lot, but producing well. 
+
+> Talent can helpp you win the race. Teamwork makes you win the championship. 
+> Michael Jordan 
+
+
+
+
