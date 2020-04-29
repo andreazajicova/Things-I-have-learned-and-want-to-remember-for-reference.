@@ -3,7 +3,7 @@ I will try to keep a log of things I have learned and want to use for reference 
 I learn the best by hearing about it, researching about it, testing it in action and writing about it/sharing it with others. 
 
 
-# Week 1 Introduction
+# Week 1 GitHub
 
 1. I cloned a repository from Github to my local machine:
    A. In Terminal I entered git clone <url (https://) of the repository I wanted to clone>, i.e.
@@ -24,7 +24,19 @@ I learn the best by hearing about it, researching about it, testing it in action
 5. **git commit -am "msg"**
    _This command both adds and commits changes to GitHub at the same time._
    _It is a combination of **add .** and **commit -m "msg"**_
+   
+6. I pushed my project *Scoreboard* into a new repository on Github called Scoreaboard and there was an error: 
+> git push -u myOrigin master                                             
+> To https://github.com/andreazajicova/Scoreboard.git
+> ! [rejected]        master -> master (non-fast-forward)
+> error: failed to push some refs to 'https://github.com/andreazajicova/Scoreboard.git'
+> hint: Updates were rejected because the tip of your current branch is behind
+> hint: its remote counterpart. Integrate the remote changes (e.g.
+> hint: 'git pull ...') before pushing again.
+> hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
+I fixed it by looking into suggested *git push --help*.
+It told me to use a command *git push --mirror*.
 # Week 1 NodeJS
 
 1. The commands to start a simple app through Terminal using NodeJS are:
