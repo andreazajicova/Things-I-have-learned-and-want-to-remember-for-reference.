@@ -37,8 +37,23 @@ I learn the best by hearing about it, researching about it, testing it in action
 
 I fixed it by looking into suggested *git push --help*.
 It told me to use a command *git push --mirror*.
+After making other changes, you jut simply push them to your repository with **git push -u origin master.** 
 
 7. Escape git help terminal by clicking _q_ for 'quit'. 
+
+8. When I want to pull any new changes/commits from GitHub repository into my local machine environment, I usse command 
+**git pull origin master**.
+
+9. Command to create a new branch to a master branch on GitHub: **git checkout -b /name of the new branch/**
+
+10. When you push into a branch other than master, the command is: **git push -u origin /name of the new branch/**
+
+11. You can clone any public repository on GitHub with **git clone /the repository's url or ssh**
+   On GitHub you must FORK it into your account and you push any changes you make in the project on your local machine into      the FORK.
+   If you later want to add your changes to the official project on GitHub you must pull a request first. 
+   It is best practice to first FORK a public repository. Then clone it and work on the forked clone. Then push changes to the    forked clone. 
+
+
 
 # Week 1 NodeJS
 
