@@ -82,7 +82,7 @@ The files that are not white, but yellow or green color need to be added and com
 
 > Talent can hel you win the race. Teamwork makes you win the championship. 
  
-URLParamsSearch
+URLSeacrhParameters:
 when we pass the URL string into URLSearchParameters as an argument, it gives us back an object.
 Remember that an object has properties(key=value pairs) and methods(functions that can be called on the object). In this case we gain access to the method “get” that takes in 1 argument (the key in the key value pair “name”) and when called gives us back the value of the key we pass in. 
 
